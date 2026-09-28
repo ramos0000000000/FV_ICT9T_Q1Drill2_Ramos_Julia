@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Drill 2</title>
+    <style>
+        body{
+            font-family: Consolas, sans-serif;
+        }
+        section{
+            display: block;
+            margin: auto;
+            width: 600px;
+            height: auto;
+            background-color: rgb(255, 248, 168);
+            box-shadow: inset;
+            padding: 15px;
+        }
+        header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rate a Movie</h1>
+        <img src="https://png.pngtree.com/png-vector/20240529/ourmid/pngtree-clip-film-icon-with-color-film-vector-png-image_6969849.png" alt="movie logo" width="200" height="200">
+        <p>Submit a review for any movie, whether its an animated film, comedy, or whatever.</p>
+    </header>
+    <br>
+<body>
+    <section> 
+    <form action="">
+        <label for="movie-title">Select a movie:</label>
+        <select id="movie" name="movie">
+            <option value="">Spirited Away</option>
+            <option value="">The Minecraft Movie</option>
+            <option value="">Michael</option>
+            <option value="">Charlie and the Chocolate Factory</option>
+          </select>
+          <br><br>
+
+        <label for="Genre">Genre/s:</label>
+        <input type="checkbox" id="Genre1" name="genre1"
+        value="genre">    
+        <label for="Genre1">Romance</label>
+        <input type="checkbox" id="Genre2" name="genre2"
+        value="genre">    
+        <label for="Genre2">Horror</label>
+        <input type="checkbox" id="Genre3" name="genre3"
+        value="genre">    
+        <label for="Genre3">Comedy</label>
+        <input type="checkbox" id="Genre4" name="genre4"
+        value="genre">    
+        <label for="Genre4">Action</label>
+        <input type="checkbox" id="Genre4" name="genre4"
+        value="genre">    
+        <label for="Genre5">Others</label>
+
+        <br><br>
+        <label for="rating">Select a rating:</label>
+        <br>
+        <input type="radio" id="rate1" name="rating" value="rate1">
+          <label for="rate1">⭐</label>
+        <input type="radio" id="rate2" name="rating" value="rate1">
+          <label for="rate1">⭐⭐</label>
+        <input type="radio" id="rate3" name="rating" value="rate1">
+          <label for="rate1">⭐⭐⭐</label>
+        <input type="radio" id="rate4" name="rating" value="rate1">
+          <label for="rate1">⭐⭐⭐⭐</label>
+        <input type="radio" id="rate5" name="rating" value="rate1">
+          <label for="rate1">⭐⭐⭐⭐⭐</label> 
+          <br><br>
+
+          <textarea id="review" name="review" cols="40" rows="4]\" placaholder="Write you review here..."></textarea>
+          
+            <br><br>
+            
+            <input type="submit" id="submit" name="submit" value="Submit a review">
+
+            <br>
+            For more review tips, click <a href="https://www.nyfa.edu/student-resources/9-tips-for-writing-a-film-review/">here</a> to go to Rotten Tomatoes.
+
+         </form>
+    </section>
+
+</body>
